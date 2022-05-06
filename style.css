@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+*{
+    margin: 0%;
+}
+body{
+    background-color:  hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+.container{
+    padding: 20px 20px;
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    font-family: "outfit", serif;
+    border-radius: 15px;
+    box-shadow: 1px 0px 30px 15px rgba(6,16,31,1);
+}
+.bigimg img{
+    width: 300px;
+    border-radius: 6px;
+}
+.bigimg{
+    width: 100%;
+    display: block;
+}
+/* image view */
+.view{
+    position: absolute;
+    top: 13.3%;
+    left: 40.25%;
+    width: 300px;
+    height: 300px;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    border-radius: 6px;
+    display: none;
+}
+.view img{ 
+    position: absolute;
+    width: 50px;
+    left: 42%;
+    top: 42%;
+}
+/* collors and text */
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 21px;
+    display: inline-block;
+    padding-top: 15px;
+
+}
+.text p{
+    color: hsl(215, 51%, 70%);
+    padding-top: 15px;
+}
+.eth p{
+    color: hsl(178, 100%, 50%);
+}
+.clock p{
+    color: hsl(215, 51%, 70%);
+}
+.avatar{
+    color: hsl(215, 51%, 70%);
+}
+a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+/* text position eth and clock*/
+.ethclock{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 18px;
+}
+.eth{
+    display: flex;
+    align-items: center;
+}
+.eth p{
+    padding-left: 5px;
+}
+.clock{
+    display: flex;
+    align-items: center;
+}
+.clock p{
+    padding-left: 5px;
+}
+hr{
+    margin: 15px;
+    border-color: hsl(215, 32%, 27%);
+}
+/* avatar */
+.avatar{
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
+    padding-left: 2px;    
+}
+.avatar img{
+    width: 25px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+.avatar p{
+    padding-left: 12px;
+}
+/* hover effect */
+a:hover{
+    color: hsl(178, 100%, 50%);
+}
+h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+.bigimg:hover .view{
+    display:block;
+}
+/* media screen*/
+@media screen and (max-width: 400px){
+    .view{
+        position: absolute;
+        top: 15%;
+        left: 12.3%;
+        width: 300px;
+        height: 300px;
+        background-color: hsla(178, 100%, 50%, 0.5);
+        border-radius: 6px;
+        display: none;
+    }
+    .view img{ 
+        position: absolute;
+        width: 50px;
+        left: 42%;
+        top: 42%;
+    }
+}
+@media screen and (max-width: 400px){
+    .view{
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        width: 300px;
+        height: 300px;
+        background-color: hsla(178, 100%, 50%, 0.5);
+        border-radius: 6px;
+        display: none;
+    }
+    .view img{ 
+        position: absolute;
+        width: 50px;
+        left: 42%;
+        top: 42%;
+    }
+}
+@media screen and (max-width: 1440px){
+    .view{
+        position: absolute;
+        top: 11.2%;
+        left: 39.6%;
+        width: 300px;
+        height: 300px;
+        background-color: hsla(178, 100%, 50%, 0.5);
+        border-radius: 6px;
+        display: none;
+    }
+    .view img{ 
+        position: absolute;
+        width: 50px;
+        left: 42%;
+        top: 42%;
+    }
+}
